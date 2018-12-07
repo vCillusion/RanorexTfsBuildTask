@@ -1,0 +1,17 @@
+﻿# user/preferences
+*.pref
+*.user
+*.rxuser
+.vs/
+
+# build output
+obj/
+debug/
+release/
+
+# test results/reports
+TestResults/
+Reports/
+
+# unnecessary auto-created files
+*_VS2010.sln
