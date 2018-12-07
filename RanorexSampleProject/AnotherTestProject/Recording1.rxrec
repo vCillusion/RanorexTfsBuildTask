@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4ac0c149-8238-4da6-bc45-d237fa5ec0af"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Recording1
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="AnotherTestProject">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message="No no"
+		optional="False"
+		reportlevel="Error;40"
+		searchpropertyid="a3f521e8-36fc-4cf4-acf9-a2e516cf4221">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="b89d0a7f-9a13-48f0-bc46-d041ec0166e0"
+	name="AnotherTestProjectRepository"
+	relativepath="AnotherTestProjectRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="AnotherTestProjectRepository"
+		namespace="AnotherTestProject">
+		</codegen>
+		<rootfolder
+		id="5c3458b5-3075-4803-b4af-7894b6688f43"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

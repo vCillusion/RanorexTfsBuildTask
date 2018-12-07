@@ -1,0 +1,32 @@
+﻿<repository
+id="dcc9889f-cb90-4ede-897d-ef4a4042eabf"
+name="MyTest_ExampleRepository"
+rxversion="8.3">
+	<codegen
+	classname="MyTest_ExampleRepository"
+	namespace="MyTest_Example">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d87474bf-0a3b-47f0-be39-39ea5fb0c60e"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		capname="desktop"
+		id="d1d4eaf8-d5e7-4589-a819-3a064aae1799"
+		isrooted="True"
+		name="NewAppFolder"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/desktop[@processname='explorer']
+			</basepath>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

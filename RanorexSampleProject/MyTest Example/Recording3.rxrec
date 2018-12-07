@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="2ff4c4aa-80bc-41d4-a512-be7468e1a178"
+mode="Global"
+rxversion="8.3">
+	<name>
+		Recording3
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording3"
+	namespace="MyTest_Example">
+	</codegen>
+	<variables>
+		<var
+		id="4431ab3e-5ccc-44f9-bd3b-a7584a3caa3a"
+		name="NewVariable">
+		</var>
+	</variables>
+	<recorditems>
+		<loggingrecorditem
+		category="User"
+		enabled="True"
+		message=""
+		optional="False"
+		reportlevel="Info;20"
+		searchpropertyid="6e88deeb-716f-4697-9d4e-b5b1bf52d0ac">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="Message"
+				variable="NewVariable">
+				</binding>
+			</bindings>
+		</loggingrecorditem>
+	</recorditems>
+	<repository
+	id="dcc9889f-cb90-4ede-897d-ef4a4042eabf"
+	name="MyTest_ExampleRepository"
+	relativepath="MyTest_ExampleRepository.rxrep"
+	rxversion="8.3">
+		<codegen
+		classname="MyTest_ExampleRepository"
+		namespace="MyTest_Example">
+		</codegen>
+		<rootfolder
+		id="d87474bf-0a3b-47f0-be39-39ea5fb0c60e"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording3.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

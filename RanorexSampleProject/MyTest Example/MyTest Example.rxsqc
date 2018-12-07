@@ -1,0 +1,22 @@
+[
+  {
+    "Enabled": "True",
+    "TestSuite": "MyTest_Example",
+    "RunConfig": "all"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "Prio1TCs",
+    "RunConfig": "TestRun"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "PlaygroundSuite",
+    "RunConfig": "Default"
+  },
+  {
+    "Enabled": "True",
+    "TestSuite": "TestSuite1",
+    "RunConfig": "Default"
+  }
+]

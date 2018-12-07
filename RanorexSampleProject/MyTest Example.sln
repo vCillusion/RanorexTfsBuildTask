@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# Ranorex Studio 8.3
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTest Example", "MyTest Example\MyTest Example.csproj", "{B7DBFFB8-B92F-4D83-9F62-E73C4C4885D3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{71FB4819-F92B-4C1E-A035-EF8E56103EAD}"
+	ProjectSection(SolutionItems) = postProject
+		Ranorex = .\Ranorex.rxsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnotherTestProject", "AnotherTestProject\AnotherTestProject.csproj", "{0E9FEBF1-4330-4340-837D-99D51BF21BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7DBFFB8-B92F-4D83-9F62-E73C4C4885D3}.Debug|x86.Build.0 = Debug|x86
+		{B7DBFFB8-B92F-4D83-9F62-E73C4C4885D3}.Debug|x86.ActiveCfg = Debug|x86
+		{B7DBFFB8-B92F-4D83-9F62-E73C4C4885D3}.Release|x86.Build.0 = Release|x86
+		{B7DBFFB8-B92F-4D83-9F62-E73C4C4885D3}.Release|x86.ActiveCfg = Release|x86
+		{0E9FEBF1-4330-4340-837D-99D51BF21BF3}.Debug|x86.Build.0 = Debug|x86
+		{0E9FEBF1-4330-4340-837D-99D51BF21BF3}.Debug|x86.ActiveCfg = Debug|x86
+		{0E9FEBF1-4330-4340-837D-99D51BF21BF3}.Release|x86.Build.0 = Release|x86
+		{0E9FEBF1-4330-4340-837D-99D51BF21BF3}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal

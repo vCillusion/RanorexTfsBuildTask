@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="8.3">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<testmodule
+			id="3390bcb0-bce3-4fa1-bfe6-fd413948a203"
+			name="Recording1"
+			ref="54802667-7e5d-40e7-ad69-bda5857cbdec"
+			type="Recording">
+			</testmodule>
+			<modulegroups
+			id="65f57a4d-ff31-4b4d-b911-5f4edc7b3f87"
+			name="MyTest_Example">
+			</modulegroups>
+			<testmodule
+			id="7cb68261-174d-4e37-ab3f-07e1c6b1fa95"
+			name="Recording2"
+			ref="d827d263-67e5-4f79-b812-068a16e74be5"
+			type="Recording">
+			</testmodule>
+			<modulegroupdef
+			id="db33bc65-39de-4d90-8865-67958f37bf11"
+			name="ModuleGroup">
+			</modulegroupdef>
+			<testmodule
+			id="db69b0be-d170-43c7-953e-d936ae880069"
+			name="Recording3"
+			ref="2ff4c4aa-80bc-41d4-a512-be7468e1a178"
+			type="Recording">
+			</testmodule>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="65f57a4d-ff31-4b4d-b911-5f4edc7b3f87"
+			name="MyTest_Example">
+				<modulegroupdef
+				id="db33bc65-39de-4d90-8865-67958f37bf11"
+				name="ModuleGroup">
+					<testmodule
+					id="3390bcb0-bce3-4fa1-bfe6-fd413948a203"
+					name="Recording1">
+					</testmodule>
+					<testmodule
+					id="db69b0be-d170-43c7-953e-d936ae880069"
+					name="Recording3">
+					</testmodule>
+					<testmodule
+					id="7cb68261-174d-4e37-ab3f-07e1c6b1fa95"
+					name="Recording2">
+					</testmodule>
+				</modulegroupdef>
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>
