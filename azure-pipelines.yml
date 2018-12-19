@@ -6,7 +6,7 @@
 trigger:
 - azure-pipelines
 
-pool: 'VACH-DEL-01'
+pool: 'default'
 
 variables:
   solution: '**/*.sln'
