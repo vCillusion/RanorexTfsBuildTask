@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: 'VACH-DEL-01'
+  vmImage: 'VS2017-Win2016'
 
 variables:
   solution: '**/*.sln'
